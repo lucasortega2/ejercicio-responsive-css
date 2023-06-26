@@ -12,7 +12,6 @@ max-width: 100%;
     display: flex;
     max-width: 80%;
 }
-
 .primera-columna {
     width: 25%;
 }
@@ -25,9 +24,6 @@ max-width: 100%;
 .segunda-columna li {
     width: 33.3%;
 }
-
-
-
 @media only screen and (max-width: 500px) {
 .general {
     display: flex;
@@ -37,6 +33,5 @@ max-width: 100%;
 .primera-columna {
     text-align: center;
     width: 100%;
-    ;
 }
 }
