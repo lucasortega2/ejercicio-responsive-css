@@ -15,6 +15,8 @@ max-width: 100%;
 
 .primera-columna {
     width: 25%;
+    margin: 5px;
+    box-sizing: border-box;
 }
 .segunda-columna {
     width: 75%;
@@ -24,12 +26,16 @@ max-width: 100%;
 }
 .segunda-columna li {
     width: 33.3%;
+    margin: 5px;
+    box-sizing: border-box;
 }
 
 
 
 @media only screen and (max-width: 500px) {
+
 .general {
+    min-width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -37,6 +43,8 @@ max-width: 100%;
 .primera-columna {
     text-align: center;
     width: 100%;
-    ;
+}
+.segunda-columna ul {
+    padding: 0;
 }
 }
